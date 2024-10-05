@@ -48,6 +48,7 @@ class Solution {
 
         int endIndex = nums1.length - 1; // 5
 
+        // compare large number to merge into nums1 
         while (n > 0 && m > 0) {
             if (nums2[n - 1] > nums1[m - 1]) {
                 nums1[endIndex] = nums2[n - 1];
@@ -59,6 +60,7 @@ class Solution {
             endIndex--;
         }
 
+        // handle remaining element in nums2
         while (n > 0) {
             nums1[endIndex] = nums2[n - 1];
             n--;
