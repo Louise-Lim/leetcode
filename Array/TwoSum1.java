@@ -37,6 +37,7 @@ public class TwoSum1 {
     public int[] twoSum(int[] nums, int target) {
 
         for (int i = 0; i < nums.length; i++) {
+            // handle the next element
             for (int j = i + 1; j < nums.length; j++) {
                 int sum = nums[i] + nums[j];
                 if (sum == target) {
