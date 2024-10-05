@@ -49,12 +49,12 @@ public class RemoveElement27 {
         int[] nums = {3, 2, 2, 3}; // Input array
         int val = 3; // Value to remove
 
-        Solution solution = new Solution();
+        RemoveElement solution = new RemoveElement();
         solution.removeElement(nums, val);
     }
 }
 
-class Solution {
+class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int count = 0; // Counter for non-val elements
         for (int i = 0; i < nums.length; i++) {
