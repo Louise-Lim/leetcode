@@ -21,6 +21,8 @@ class RemoveDuplicateArrayII {
             }
         }
 
+
+        // handle unwanted
         int[] temp = new int[k];
         for (int i = 0; i < k; i++) {
             temp[i] = nums[i];
