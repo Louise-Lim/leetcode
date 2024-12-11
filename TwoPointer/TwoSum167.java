@@ -13,6 +13,9 @@ public class TwoSum167 {
 
 class TwoSumII {
     public int[] twoSum(int[] numbers, int target) {
+        // time complexity: o(n)
+        // space complexity: o(1)
+
         int indexL = 0;
         int indexR = numbers.length - 1;
 
@@ -30,6 +33,6 @@ class TwoSumII {
             }
         }
 
-        return numbers;
+        return new int[0];
     }
 }
